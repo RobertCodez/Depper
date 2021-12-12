@@ -1,0 +1,188 @@
+body, html {
+    height: calc(100% - 2em);
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+
+body {/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6100ff+0,cc00ff+100 */
+background: #6100ff; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #6100ff 0%, #cc00ff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #6100ff 0%,#cc00ff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #6100ff 0%,#cc00ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6100ff', endColorstr='#cc00ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+aside {
+    color: white;
+    display: grid;
+    grid-template-columns: auto 40px;
+    padding: 2em;
+
+}
+
+#MenuIcon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+figure {
+    margin: 10px;
+}
+
+figcaption {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+nav {
+    background: #fff;
+}
+
+
+.active {
+    position: absolute;
+    display: block;
+    background: #C8BAFF;
+    width: 50%;
+    left: 0;
+    height: 100%;
+    top: 0;
+}
+
+ul li a:hover {
+    background-color: white;
+}
+
+ul {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+#Privacy {
+    text-decoration: wheat;
+   text-align: center;
+   display: block;
+   font-size: .7em;
+   padding-top: 70%;
+}
+
+
+ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    display: block;
+    color: black;
+    padding: 2em 3em;
+    background-color: rgba(255, 255, 255, 0.21);
+    text-align: center;
+   
+}
+
+
+main {
+    background: white;
+    padding: 1em 1.4em;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.cta {
+    display: block;
+    color: white;
+    background: #6100FF;
+    padding: 8px 50px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 2em 0;
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width: 768px){
+
+    body {
+        display: grid;
+        grid-template-columns: 20% auto;
+        padding: 2em;
+    }
+
+    #Title {
+        padding-top: 16%;
+        padding-left: 2.5em;
+    }
+
+    #Content {
+        padding-left: 4.6em;
+    }
+
+    img {
+        display:  none;
+    }
+
+    aside {
+        background: #C8BAFF;
+        grid-template-columns: auto;
+        grid-template-rows: 20% auto;
+        padding: 0;
+
+    }
+
+
+    main {
+        padding: 4em;
+        background: white;
+        background-size: 70%;
+    }
+
+
+
+    figcaption {
+        text-align: center;
+        color: black;
+        padding-top: 2em;
+        font-size: 2em;
+    }
+
+
+    ul {
+        display:  block;
+        margin-top:  2em;
+        position: relative !important;
+        background: none !important;
+        width: 100% !important;
+
+    }
+
+    ul li a:hover {
+        background-color: white;
+    }
+    nav {
+        background: none;
+    }
+
+    .cta {
+       display: inline;
+        padding: 8px 70px;
+        margin: 4em 4em !important;
+    }
+
+}
+
